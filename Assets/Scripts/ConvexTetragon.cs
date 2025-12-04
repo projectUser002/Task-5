@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ConvexTetragon : Tetragon
+public class ConvexTetragon : Tetragon //Наследуемся от базового - создаем начало цепочки
 {
     public ConvexTetragon(float a, float b, float angle) : base(a, b, angle) { }
 

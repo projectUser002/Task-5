@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rectangle : Parallelogram
+public class Rectangle : Parallelogram // наследуемся по цепочке от параллелограма
 {
     public Rectangle(float a, float b) : base(a, b, 90f) 
     {
         //все углы 90 градусов
     }
 
-    // Периметр остается P = 2(a + b)
+    // Периметр остается P = 2(a + b) - используем базовый метод
 
     public override float CountArea()
     {
